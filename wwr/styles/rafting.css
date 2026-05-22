@@ -48,7 +48,7 @@ nav, p, section, article {
 }
 
 .hero {
-position:relative;
+position: relative;
 }
 
 
@@ -73,6 +73,12 @@ h1
 article{
     position: absolute;
     
+}
+.hero article{
+    position: absolute;
+}
+.hero h1{
+    position:absolute
 }
 
 
