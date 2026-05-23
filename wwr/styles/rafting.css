@@ -37,6 +37,7 @@ header, main, footer {
 h1, h2 {
   font-family: var(--heading-font);
   color: white;
+  text-align: center;
   background-color: var(--accent1-color);
   
 
@@ -46,10 +47,11 @@ h1, h2 {
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
-  font: optional;
-  color-scheme: var(--accent2-color);
-  position: relative;
+  font: var(--body-font);
+ color-scheme: var(--accent2-color);
+ position: relative; 
 }
+
 
 .socialmedia a {
     text-decoration: none;
@@ -86,8 +88,12 @@ h1
   background-color: var(--accent1-color);
   color: #fff;}
 
+
+
 article{
     position: absolute;
+    color: var(--accent1-color);
+    font: var(--body-font);
     
 }
 .hero article{
