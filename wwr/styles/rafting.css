@@ -106,6 +106,8 @@ article{
 
 
 .hero article img {
+  position: relative;
   float: right;
   width: 125px;
+  height : auto;
 }
