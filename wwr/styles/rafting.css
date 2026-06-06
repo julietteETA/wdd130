@@ -260,7 +260,7 @@ form {
 
 button {
   margin: 1rem;
-  background-color: navy;
+  background-color: var(--accent1-color);
   color: #fff;
   border: none;
   border-radius: .5rem;
